@@ -1,0 +1,89 @@
+* {
+box-sizing: content-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+
+h1{
+text-align:center;
+font-family:Limelight;
+color:black;  
+padding:8px;
+font-size: 36px;
+text-shadow:1px 1px 2px black;
+text-transform: uppercase;
+}
+body{
+    padding:10px;
+    margin:10px 20px;
+    font-weight:600;
+    font-size:14px;
+    background:url(bmw_m340i_xdrive_touring_first_edition_2020_5k_4-1920x1080.jpg);
+    background-position:center;
+    background-size:100%; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    
+}
+p{
+
+    border-radius: 7px;
+    width:600px;
+    
+    color:whitesmoke;
+    background-color:rgba(0, 0, 0, 0.527) ;
+    padding:8px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.932);
+
+}
+    
+    
+
+
+    
+
+
+ input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+
+select,
+    textarea{
+    
+        padding:10px;
+        border:2px solid blue;
+        border-radius:7px;
+        margin:10px;
+    }
+
+        
+        
+       
+    
+   
+    input[type="submit"]{
+        color:whitesmoke;
+        background-color:rgba(0, 0, 0, 0.459);
+        padding:12px 20px;
+        border:none;
+        border-radius:7px;
+        cursor:pointer; 
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.993); 
+        margin-top: 12px;
+        }
+       
+        
+        label{
+            padding:8px;
+            }
+            input[type="submit"]:hover{
+                background-color: blue;
+                color:whitesmoke;
+                }
+
+                
