@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox project-3</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+    display: flex;
+    min-height: 800px;
+    flex-direction: row;
+    margin: 0;
+    }
+header,footer{
+    background-color: yellow;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    padding: 1em;
+}
+
+
+ .flex-container{
+    display: flex;
+    flex: 1;
+    background-color: thistle;
+    padding: 1em;
+    flex-direction:column ;
+    
+    
+}
+.flex-items{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+   flex: 2;
+    min-height: 200px;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <nav class="flex-container">Nav</nav> 
+    <div class="flex-items">
+    <header>Header</header>
+   
+    
+    <article class="main">article</article>
+    <footer>Footer</footer>
+</div>
+
+    
+</body>
+</html>
