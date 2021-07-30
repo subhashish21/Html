@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+
+    
+}
+
+
+h1{
+color:navy;
+font-family:Elephant;
+font-size:40px;
+background-color:crimson;
+text-align:center;
+padding: 20px;
+margin: 0px;
+}
+
+
+
+
+nav{
+    background-color:black;
+    display: flex;
+    }
+nav a{
+text-decoration:none;
+color:white;
+background-color:black;
+text-align:center;
+padding:14px 20px;
+float:left;
+display: block;
+
+}
+
+nav a:hover{
+background-color:white;
+text-decoration:none;
+}
+section{
+    text-align: center;
+    padding-top:40px ;
+    
+}
+iframe{
+    padding: 0px 5px;
+}
+img{
+    padding: 0px 10px;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+footer{
+    overflow: hidden;
+    background-color:#333
+
+}
+footer a{
+    text-decoration:none;
+color:white;
+
+text-align:center;
+padding:10px;
+float:left;
+
+}
+.copyright{
+    float: right;
+}
+footer a:hover{
+    color:royalblue;
+    text-decoration:none ;
+}
+section p{
+  margin: 0px 120px; 
+  padding: 40px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.flex-align-left{
+    margin-left: auto;
+
+}
+section h2 span {
+    background: linear-gradient(to right,#E52B50,#FF033E);
+    padding: 10px 55px;
+    border-radius: 25px;
+    color: lightblue;
+}
+section h3 span {
+    background: linear-gradient(to right,#FF033E,#BA0021);
+    padding: 10px 55px;
+    border-radius: 25px;
+    color: lightblue;
+}
+.profile{
+    border-radius: 50%;
+}
+.profile_name{
+    font-size:2em ;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+p{
+    color: #8080ff;
+}
+.sm-handle a {
+padding: 10px 15px;
+border-radius: 20px;
+margin: 5px 10px;
+text-decoration:none;
+background-color:gainsboro;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sm-handle a:hover{
+    background-color: #f0f0f0;
+    
+}
+.sm-handle a i{
+    margin: 5px;
+
+}
+.insta_handle{
+color: #dd2a7b;
+}
+.twitter_handle{
+color: blue;
+} 
+.yt_handle{
+color: #ff0000;
+}
+.aboutus{
+    margin: 50px;
+    padding-bottom: 10px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+} 
+
+
+@media screen and (max-width: 700px){
+nav  {
+    flex-direction: column;
+    padding: 10px 0px;
+
+}
+.flex-align-right{
+    margin-right: 0;
+}
+}
