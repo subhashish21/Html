@@ -1,0 +1,57 @@
+div{
+            
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    display: none;
+
+  }
+  body{
+      font-family:sans-serif ;
+      margin: 0;
+      padding: 0;
+      }
+  nav{
+      width: 100%;
+      padding: 1px;
+      background: rgb(143, 221, 98);
+      }
+  ul{
+      width: 80%;
+      margin:0 auto;
+      padding: 0;
+     
+  } 
+  ul li{
+      list-style: none;
+      display: inline-block;
+      padding:20px ;
+      
+      
+  }
+  ul li:hover{
+  background-color: rgb(238, 145, 218);
+  
+ 
+  }   
+  ul li a{
+      text-decoration: none;
+      color: white;
+
+
+  }
+  @media (max-width:750px)
+  {
+      div{
+          display: block;
+      }
+      ul{
+          width: 100%;
+      }
+      ul li{
+          display: block;
+          text-align: center;
+      }
+  }
+ 
